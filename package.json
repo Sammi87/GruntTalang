@@ -1,8 +1,18 @@
 {
-  "name": "talang-grunt",
-  "version": "0.0.0",
-  "devDependencies": {
-    "grunt": "^0.4.5"
+  "name": "my-project-name",
+  "version": "0.1.0",
+  "dependencies": {
+    "react": "^0.11.2",
+    "react-addons": "^0.9.0",
+    "react-tools": "^0.11.2"
   },
-  "dependencies": {}
+  "devDependencies": {
+    "coquette": "^0.5.9",
+    "grunt": "~0.4.5",
+    "grunt-browserify": "^3.0.1",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-react": "^0.9.0",
+    "livereload-js": "^2.2.1"
+  }
 }
